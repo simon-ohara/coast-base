@@ -1,0 +1,4 @@
+#!/bin/bash
+source ${BASH_SOURCE%/*}/config
+docker stop $CONTAINER
+docker rm $CONTAINER

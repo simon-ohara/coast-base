@@ -12,7 +12,7 @@ call vundle#rc()
 Plugin 'gmarik/vundle'
 Plugin 'scrooloose/nerdtree'
 Plugin 'bling/vim-airline'
-Plugin 'powerline/fonts'
+" Plugin 'powerline/fonts'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'morhetz/gruvbox'
 " Plugin 'vim-scripts/restore_view.vim'

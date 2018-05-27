@@ -25,6 +25,7 @@ RUN \
 
 COPY .zshrc /root/
 COPY .vimrc /root/
+COPY .gitconfig /root/
 
 # Vim setup
 RUN \

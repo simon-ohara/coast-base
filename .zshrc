@@ -1,6 +1,6 @@
 export ZSH=/root/.oh-my-zsh
 
-ZSH_THEME="robbyrussell"
+ZSH_THEME="agnoster"
 
 plugins=(
   git
@@ -10,5 +10,8 @@ plugins=(
   nvm
   themes
 )
+
+alias findme='grep -nir --exclude-dir=\node_modules\'
+alias whouses='grep -lir --exclude-dir=\node_modules\'
 
 source $ZSH/oh-my-zsh.sh

@@ -5,10 +5,8 @@ RUN \
   apt-get update && \
   apt-get -y upgrade && \
   apt-get install -y \
-    build-essential \
     git \
     locales \
-    software-properties-common \
     vim \
     wget \
     zsh

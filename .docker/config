@@ -1,5 +1,0 @@
-#!/bin/bash
-NAME="dev-setup"
-CONTAINER="${NAME}-container"
-IMAGE="${NAME}-image"
-MOUNT=$NAME

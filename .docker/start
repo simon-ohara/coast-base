@@ -1,3 +1,0 @@
-#!/bin/bash
-source ${BASH_SOURCE%/*}/config
-docker run -div $PWD:/$MOUNT --name $CONTAINER $IMAGE

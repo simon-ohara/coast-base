@@ -31,7 +31,6 @@ Plugin 'pangloss/vim-javascript'
 " ++++++++++++++++++++++++++++
 filetype plugin indent on
 
-set encoding=utf-8
 
 " Layout
 set cursorline
@@ -47,8 +46,12 @@ set smartindent
 set tabstop=2
 set shiftwidth=2
 set expandtab
-" Deleting
-set backspace=indent,eol,start
+" ----------------------------
+set encoding=utf-8                    " Unicode character Support
+set backspace=indent,eol,start        " Deleting
+set completeopt=menu,menuone,longest  " Completion 
+set path+=**                          " Fuzzy file search
+" ----------------------------
 " ColorScheme
 set t_Co=256
 set background=dark
@@ -61,10 +64,9 @@ set directory=$HOME/.vim/tmp
 set backupcopy=yes
 
 " NERDTree Configs
-" Toggle Nerd Tree with Ctrl+L
 map <C-L> :NERDTreeToggle<CR>
-" Show hidden files
 let NERDTreeShowHidden=1
+
 " Airline Configs
 let g:airline_powerline_fonts = 1
 let g:Powerline_symbols = 'unicode'

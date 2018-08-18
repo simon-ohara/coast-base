@@ -49,7 +49,7 @@ set expandtab
 " ----------------------------
 set encoding=utf-8                    " Unicode character Support
 set backspace=indent,eol,start        " Deleting
-set completeopt=menu,menuone,longest  " Completion 
+set completeopt=menu,menuone,longest  " Completion
 set path+=**                          " Fuzzy file search
 " ----------------------------
 " ColorScheme
